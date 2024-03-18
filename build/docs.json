@@ -62497,5 +62497,34 @@
       },
       "name": "Uptime Robot"
     }
+  },
+  "gaming": {
+    "steam": {
+      "routes": {
+        "/steam/search/:searchParams": {
+          "path": "/search/:searchParams",
+          "categories": [
+            "gaming"
+          ],
+          "example": "/steam/search/sort_by=Released_DESC&tags=492&category1=10&os=linux",
+          "parameters": {
+            "search": "Search parameters for Steam Store search. "
+          },
+          "radar": [
+            {
+              "source": [
+                "store.steampowered.com"
+              ]
+            }
+          ],
+          "name": "Steam Store Search",
+          "maintainers": [
+            "XXXXX"
+          ],
+          "location": "search.ts"
+        }
+      },
+      "name": "Steam Store"
+    }
   }
 }

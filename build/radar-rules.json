@@ -12541,6 +12541,19 @@
       }
     ]
   },
+  "steampowered.com": {
+    "_name": "Steam Store",
+    "store": [
+      {
+        "title": "Steam Store Search",
+        "docs": "https://docs.rsshub.app/routes/gaming",
+        "source": [
+          "/"
+        ],
+        "target": "/steam/search/:searchParams"
+      }
+    ]
+  },
   "stockedge.com": {
     "_name": "Stock Edge",
     "web": [

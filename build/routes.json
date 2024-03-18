@@ -49877,6 +49877,34 @@
     "name": "中国科技网",
     "url": "digitalpaper.stdaily.com"
   },
+  "steam": {
+    "routes": {
+      "/search/:searchParams": {
+        "path": "/search/:searchParams",
+        "categories": [
+          "gaming"
+        ],
+        "example": "/steam/search/sort_by=Released_DESC&tags=492&category1=10&os=linux",
+        "parameters": {
+          "search": "Search parameters for Steam Store search. "
+        },
+        "radar": [
+          {
+            "source": [
+              "store.steampowered.com"
+            ]
+          }
+        ],
+        "name": "Steam Store Search",
+        "maintainers": [
+          "XXXXX"
+        ],
+        "location": "search.ts"
+      }
+    },
+    "name": "Steam Store",
+    "url": "store.steampowered.com"
+  },
   "stheadline": {
     "routes": {
       "/std/realtime/:category{.+}?": {
